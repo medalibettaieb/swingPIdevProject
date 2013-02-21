@@ -2,10 +2,8 @@ package entities;
 
 import java.io.Serializable;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.ManyToOne;
 
 /**
  * Entity implementation class for Entity: Employee
@@ -14,10 +12,10 @@ import javax.persistence.ManyToOne;
 @Entity
 public class Employee implements Serializable {
 
+	/** The id employee. */
 	private int idEmployee;
 	private String nameEmployee;
 
-	
 	private static final long serialVersionUID = 1L;
 
 	public Employee() {
@@ -41,5 +39,4 @@ public class Employee implements Serializable {
 		this.nameEmployee = nameEmployee;
 	}
 
-	
 }
