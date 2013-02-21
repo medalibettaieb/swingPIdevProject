@@ -18,16 +18,32 @@ import javax.swing.border.EmptyBorder;
 import services.interfaces.ProjectManagementServicesRemote;
 import entities.Employee;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class AddEmployee.
+ */
 public class AddEmployee extends JFrame {
 
+	/** The content pane. */
 	private JPanel contentPane;
+	
+	/** The text field. */
 	private JTextField textField;
+	
+	/** The text field_1. */
 	private JTextField textField_1;
+	
+	/** The context. */
 	private static Context context;
+	
+	/** The proxy. */
 	private static ProjectManagementServicesRemote proxy;
 
 	/**
 	 * Launch the application.
+	 * 
+	 * @param args
+	 *            the arguments
 	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
